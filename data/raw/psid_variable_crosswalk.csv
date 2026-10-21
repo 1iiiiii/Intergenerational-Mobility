@@ -1,0 +1,264 @@
+variable,name,table,concept,year,description
+ER30001,id_1968,individual,ind_id_1968_interview_number,all,1968 family interview number (first half of the permanent person ID)
+ER30002,person_num,individual,ind_id_person_number,all,person number within the 1968 family (second half of the permanent person ID)
+ER32000,sex,individual,ind_sex,all,"1 = male, 2 = female"
+ER32016,father_id_1968,individual,father_1968_interview_number,all,father's 1968 family interview number (0 = unknown / not in study)
+ER32017,father_person_num,individual,father_person_number,all,father's person number
+ER32009,mother_id_1968,individual,mother_1968_interview_number,all,mother's 1968 family interview number (0 = unknown / not in study)
+ER32010,mother_person_num,individual,mother_person_number,all,mother's person number
+ER30004,age_1968,individual,ind_age,1968,age at the interview (0 = not interviewed / not in a family unit)
+ER30023,age_1969,individual,ind_age,1969,age at the interview (0 = not interviewed / not in a family unit)
+ER30046,age_1970,individual,ind_age,1970,age at the interview (0 = not interviewed / not in a family unit)
+ER30070,age_1971,individual,ind_age,1971,age at the interview (0 = not interviewed / not in a family unit)
+ER30094,age_1972,individual,ind_age,1972,age at the interview (0 = not interviewed / not in a family unit)
+ER30120,age_1973,individual,ind_age,1973,age at the interview (0 = not interviewed / not in a family unit)
+ER30141,age_1974,individual,ind_age,1974,age at the interview (0 = not interviewed / not in a family unit)
+ER30163,age_1975,individual,ind_age,1975,age at the interview (0 = not interviewed / not in a family unit)
+ER30191,age_1976,individual,ind_age,1976,age at the interview (0 = not interviewed / not in a family unit)
+ER30220,age_1977,individual,ind_age,1977,age at the interview (0 = not interviewed / not in a family unit)
+ER30249,age_1978,individual,ind_age,1978,age at the interview (0 = not interviewed / not in a family unit)
+ER30286,age_1979,individual,ind_age,1979,age at the interview (0 = not interviewed / not in a family unit)
+ER30316,age_1980,individual,ind_age,1980,age at the interview (0 = not interviewed / not in a family unit)
+ER30346,age_1981,individual,ind_age,1981,age at the interview (0 = not interviewed / not in a family unit)
+ER30376,age_1982,individual,ind_age,1982,age at the interview (0 = not interviewed / not in a family unit)
+ER30402,age_1983,individual,ind_age,1983,age at the interview (0 = not interviewed / not in a family unit)
+ER30432,age_1984,individual,ind_age,1984,age at the interview (0 = not interviewed / not in a family unit)
+ER30466,age_1985,individual,ind_age,1985,age at the interview (0 = not interviewed / not in a family unit)
+ER30501,age_1986,individual,ind_age,1986,age at the interview (0 = not interviewed / not in a family unit)
+ER30538,age_1987,individual,ind_age,1987,age at the interview (0 = not interviewed / not in a family unit)
+ER30573,age_1988,individual,ind_age,1988,age at the interview (0 = not interviewed / not in a family unit)
+ER30609,age_1989,individual,ind_age,1989,age at the interview (0 = not interviewed / not in a family unit)
+ER30645,age_1990,individual,ind_age,1990,age at the interview (0 = not interviewed / not in a family unit)
+ER30692,age_1991,individual,ind_age,1991,age at the interview (0 = not interviewed / not in a family unit)
+ER30736,age_1992,individual,ind_age,1992,age at the interview (0 = not interviewed / not in a family unit)
+ER30809,age_1993,individual,ind_age,1993,age at the interview (0 = not interviewed / not in a family unit)
+ER33104,age_1994,individual,ind_age,1994,age at the interview (0 = not interviewed / not in a family unit)
+ER33204,age_1995,individual,ind_age,1995,age at the interview (0 = not interviewed / not in a family unit)
+ER33304,age_1996,individual,ind_age,1996,age at the interview (0 = not interviewed / not in a family unit)
+ER33404,age_1997,individual,ind_age,1997,age at the interview (0 = not interviewed / not in a family unit)
+ER33504,age_1999,individual,ind_age,1999,age at the interview (0 = not interviewed / not in a family unit)
+ER33604,age_2001,individual,ind_age,2001,age at the interview (0 = not interviewed / not in a family unit)
+ER33704,age_2003,individual,ind_age,2003,age at the interview (0 = not interviewed / not in a family unit)
+ER33804,age_2005,individual,ind_age,2005,age at the interview (0 = not interviewed / not in a family unit)
+ER33904,age_2007,individual,ind_age,2007,age at the interview (0 = not interviewed / not in a family unit)
+ER34004,age_2009,individual,ind_age,2009,age at the interview (0 = not interviewed / not in a family unit)
+ER34104,age_2011,individual,ind_age,2011,age at the interview (0 = not interviewed / not in a family unit)
+ER34204,age_2013,individual,ind_age,2013,age at the interview (0 = not interviewed / not in a family unit)
+ER34305,age_2015,individual,ind_age,2015,age at the interview (0 = not interviewed / not in a family unit)
+ER34504,age_2017,individual,ind_age,2017,age at the interview (0 = not interviewed / not in a family unit)
+ER34704,age_2019,individual,ind_age,2019,age at the interview (0 = not interviewed / not in a family unit)
+ER34904,age_2021,individual,ind_age,2021,age at the interview (0 = not interviewed / not in a family unit)
+ER35104,age_2023,individual,ind_age,2023,age at the interview (0 = not interviewed / not in a family unit)
+ER30020,interview_1969,individual,ind_interview_number,1969,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30043,interview_1970,individual,ind_interview_number,1970,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30067,interview_1971,individual,ind_interview_number,1971,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30091,interview_1972,individual,ind_interview_number,1972,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30117,interview_1973,individual,ind_interview_number,1973,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30138,interview_1974,individual,ind_interview_number,1974,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30160,interview_1975,individual,ind_interview_number,1975,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30188,interview_1976,individual,ind_interview_number,1976,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30217,interview_1977,individual,ind_interview_number,1977,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30246,interview_1978,individual,ind_interview_number,1978,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30283,interview_1979,individual,ind_interview_number,1979,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30313,interview_1980,individual,ind_interview_number,1980,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30343,interview_1981,individual,ind_interview_number,1981,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30373,interview_1982,individual,ind_interview_number,1982,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30399,interview_1983,individual,ind_interview_number,1983,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30429,interview_1984,individual,ind_interview_number,1984,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30463,interview_1985,individual,ind_interview_number,1985,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30498,interview_1986,individual,ind_interview_number,1986,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30535,interview_1987,individual,ind_interview_number,1987,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30570,interview_1988,individual,ind_interview_number,1988,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30606,interview_1989,individual,ind_interview_number,1989,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30642,interview_1990,individual,ind_interview_number,1990,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30689,interview_1991,individual,ind_interview_number,1991,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30733,interview_1992,individual,ind_interview_number,1992,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30806,interview_1993,individual,ind_interview_number,1993,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33101,interview_1994,individual,ind_interview_number,1994,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33201,interview_1995,individual,ind_interview_number,1995,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33301,interview_1996,individual,ind_interview_number,1996,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33401,interview_1997,individual,ind_interview_number,1997,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33501,interview_1999,individual,ind_interview_number,1999,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33601,interview_2001,individual,ind_interview_number,2001,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33701,interview_2003,individual,ind_interview_number,2003,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33801,interview_2005,individual,ind_interview_number,2005,interview number of the family the person belonged to that year (0 = not interviewed)
+ER33901,interview_2007,individual,ind_interview_number,2007,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34001,interview_2009,individual,ind_interview_number,2009,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34101,interview_2011,individual,ind_interview_number,2011,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34201,interview_2013,individual,ind_interview_number,2013,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34301,interview_2015,individual,ind_interview_number,2015,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34501,interview_2017,individual,ind_interview_number,2017,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34701,interview_2019,individual,ind_interview_number,2019,interview number of the family the person belonged to that year (0 = not interviewed)
+ER34901,interview_2021,individual,ind_interview_number,2021,interview number of the family the person belonged to that year (0 = not interviewed)
+ER35101,interview_2023,individual,ind_interview_number,2023,interview number of the family the person belonged to that year (0 = not interviewed)
+ER30003,rel_head_1968,individual,ind_relationship_to_head,1968,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30022,rel_head_1969,individual,ind_relationship_to_head,1969,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30045,rel_head_1970,individual,ind_relationship_to_head,1970,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30069,rel_head_1971,individual,ind_relationship_to_head,1971,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30093,rel_head_1972,individual,ind_relationship_to_head,1972,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30119,rel_head_1973,individual,ind_relationship_to_head,1973,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30140,rel_head_1974,individual,ind_relationship_to_head,1974,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30162,rel_head_1975,individual,ind_relationship_to_head,1975,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30190,rel_head_1976,individual,ind_relationship_to_head,1976,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30219,rel_head_1977,individual,ind_relationship_to_head,1977,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30248,rel_head_1978,individual,ind_relationship_to_head,1978,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30285,rel_head_1979,individual,ind_relationship_to_head,1979,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30315,rel_head_1980,individual,ind_relationship_to_head,1980,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30345,rel_head_1981,individual,ind_relationship_to_head,1981,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30375,rel_head_1982,individual,ind_relationship_to_head,1982,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30401,rel_head_1983,individual,ind_relationship_to_head,1983,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30431,rel_head_1984,individual,ind_relationship_to_head,1984,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30465,rel_head_1985,individual,ind_relationship_to_head,1985,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30500,rel_head_1986,individual,ind_relationship_to_head,1986,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30537,rel_head_1987,individual,ind_relationship_to_head,1987,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30572,rel_head_1988,individual,ind_relationship_to_head,1988,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30608,rel_head_1989,individual,ind_relationship_to_head,1989,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30644,rel_head_1990,individual,ind_relationship_to_head,1990,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30691,rel_head_1991,individual,ind_relationship_to_head,1991,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30735,rel_head_1992,individual,ind_relationship_to_head,1992,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30808,rel_head_1993,individual,ind_relationship_to_head,1993,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33103,rel_head_1994,individual,ind_relationship_to_head,1994,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33203,rel_head_1995,individual,ind_relationship_to_head,1995,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33303,rel_head_1996,individual,ind_relationship_to_head,1996,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33403,rel_head_1997,individual,ind_relationship_to_head,1997,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33503,rel_head_1999,individual,ind_relationship_to_head,1999,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33603,rel_head_2001,individual,ind_relationship_to_head,2001,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33703,rel_head_2003,individual,ind_relationship_to_head,2003,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33803,rel_head_2005,individual,ind_relationship_to_head,2005,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER33903,rel_head_2007,individual,ind_relationship_to_head,2007,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34003,rel_head_2009,individual,ind_relationship_to_head,2009,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34103,rel_head_2011,individual,ind_relationship_to_head,2011,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34203,rel_head_2013,individual,ind_relationship_to_head,2013,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34303,rel_head_2015,individual,ind_relationship_to_head,2015,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34503,rel_head_2017,individual,ind_relationship_to_head,2017,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34703,rel_head_2019,individual,ind_relationship_to_head,2019,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER34903,rel_head_2021,individual,ind_relationship_to_head,2021,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER35103,rel_head_2023,individual,ind_relationship_to_head,2023,"relationship to head/reference person that year (1968-82 one-digit codes; 1983+ two-digit: 10 head, 20/22 spouse/partner, 30 child, ...; 0 = not in a family unit)"
+ER30021,seq_1969,individual,ind_sequence_number,1969,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30044,seq_1970,individual,ind_sequence_number,1970,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30068,seq_1971,individual,ind_sequence_number,1971,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30092,seq_1972,individual,ind_sequence_number,1972,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30118,seq_1973,individual,ind_sequence_number,1973,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30139,seq_1974,individual,ind_sequence_number,1974,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30161,seq_1975,individual,ind_sequence_number,1975,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30189,seq_1976,individual,ind_sequence_number,1976,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30218,seq_1977,individual,ind_sequence_number,1977,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30247,seq_1978,individual,ind_sequence_number,1978,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30284,seq_1979,individual,ind_sequence_number,1979,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30314,seq_1980,individual,ind_sequence_number,1980,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30344,seq_1981,individual,ind_sequence_number,1981,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30374,seq_1982,individual,ind_sequence_number,1982,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30400,seq_1983,individual,ind_sequence_number,1983,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30430,seq_1984,individual,ind_sequence_number,1984,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30464,seq_1985,individual,ind_sequence_number,1985,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30499,seq_1986,individual,ind_sequence_number,1986,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30536,seq_1987,individual,ind_sequence_number,1987,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30571,seq_1988,individual,ind_sequence_number,1988,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30607,seq_1989,individual,ind_sequence_number,1989,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30643,seq_1990,individual,ind_sequence_number,1990,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30690,seq_1991,individual,ind_sequence_number,1991,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30734,seq_1992,individual,ind_sequence_number,1992,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER30807,seq_1993,individual,ind_sequence_number,1993,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33102,seq_1994,individual,ind_sequence_number,1994,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33202,seq_1995,individual,ind_sequence_number,1995,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33302,seq_1996,individual,ind_sequence_number,1996,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33402,seq_1997,individual,ind_sequence_number,1997,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33502,seq_1999,individual,ind_sequence_number,1999,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33602,seq_2001,individual,ind_sequence_number,2001,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33702,seq_2003,individual,ind_sequence_number,2003,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33802,seq_2005,individual,ind_sequence_number,2005,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER33902,seq_2007,individual,ind_sequence_number,2007,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34002,seq_2009,individual,ind_sequence_number,2009,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34102,seq_2011,individual,ind_sequence_number,2011,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34202,seq_2013,individual,ind_sequence_number,2013,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34302,seq_2015,individual,ind_sequence_number,2015,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34502,seq_2017,individual,ind_sequence_number,2017,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34702,seq_2019,individual,ind_sequence_number,2019,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER34902,seq_2021,individual,ind_sequence_number,2021,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+ER35102,seq_2023,individual,ind_sequence_number,2023,sequence number in the family unit that year (1-20 in the unit; 51-59 moved out; 81-89 institution; 0 = not interviewed)
+V81,fam_income_1968,family,fam_total_family_income,1968,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V529,fam_income_1969,family,fam_total_family_income,1969,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V1514,fam_income_1970,family,fam_total_family_income,1970,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V2226,fam_income_1971,family,fam_total_family_income,1971,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V2852,fam_income_1972,family,fam_total_family_income,1972,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V3256,fam_income_1973,family,fam_total_family_income,1973,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V3676,fam_income_1974,family,fam_total_family_income,1974,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V4154,fam_income_1975,family,fam_total_family_income,1975,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V5029,fam_income_1976,family,fam_total_family_income,1976,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V5626,fam_income_1977,family,fam_total_family_income,1977,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V6173,fam_income_1978,family,fam_total_family_income,1978,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V6766,fam_income_1979,family,fam_total_family_income,1979,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V7412,fam_income_1980,family,fam_total_family_income,1980,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V8065,fam_income_1981,family,fam_total_family_income,1981,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V8689,fam_income_1982,family,fam_total_family_income,1982,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V9375,fam_income_1983,family,fam_total_family_income,1983,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V11022,fam_income_1984,family,fam_total_family_income,1984,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V12371,fam_income_1985,family,fam_total_family_income,1985,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V13623,fam_income_1986,family,fam_total_family_income,1986,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V14670,fam_income_1987,family,fam_total_family_income,1987,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V16144,fam_income_1988,family,fam_total_family_income,1988,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V17533,fam_income_1989,family,fam_total_family_income,1989,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V18875,fam_income_1990,family,fam_total_family_income,1990,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V20175,fam_income_1991,family,fam_total_family_income,1991,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V21481,fam_income_1992,family,fam_total_family_income,1992,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V23322,fam_income_1993,family,fam_total_family_income,1993,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER4153,fam_income_1994,family,fam_total_family_income,1994,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER6993,fam_income_1995,family,fam_total_family_income,1995,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER9244,fam_income_1996,family,fam_total_family_income,1996,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER12079,fam_income_1997,family,fam_total_family_income,1997,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER16462,fam_income_1999,family,fam_total_family_income,1999,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER20456,fam_income_2001,family,fam_total_family_income,2001,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER24099,fam_income_2003,family,fam_total_family_income,2003,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER28037,fam_income_2005,family,fam_total_family_income,2005,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER41027,fam_income_2007,family,fam_total_family_income,2007,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER46935,fam_income_2009,family,fam_total_family_income,2009,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER52343,fam_income_2011,family,fam_total_family_income,2011,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER58152,fam_income_2013,family,fam_total_family_income,2013,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER65349,fam_income_2015,family,fam_total_family_income,2015,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER71426,fam_income_2017,family,fam_total_family_income,2017,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER77448,fam_income_2019,family,fam_total_family_income,2019,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER81775,fam_income_2021,family,fam_total_family_income,2021,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+ER85629,fam_income_2023,family,fam_total_family_income,2023,"total family money income for the calendar year BEFORE the interview year, nominal dollars"
+V3,fam_interview_1968,family,fam_interview_number,1968,family interview number that year (key to the family record)
+V442,fam_interview_1969,family,fam_interview_number,1969,family interview number that year (key to the family record)
+V1102,fam_interview_1970,family,fam_interview_number,1970,family interview number that year (key to the family record)
+V1802,fam_interview_1971,family,fam_interview_number,1971,family interview number that year (key to the family record)
+V2402,fam_interview_1972,family,fam_interview_number,1972,family interview number that year (key to the family record)
+V3002,fam_interview_1973,family,fam_interview_number,1973,family interview number that year (key to the family record)
+V3402,fam_interview_1974,family,fam_interview_number,1974,family interview number that year (key to the family record)
+V3802,fam_interview_1975,family,fam_interview_number,1975,family interview number that year (key to the family record)
+V4302,fam_interview_1976,family,fam_interview_number,1976,family interview number that year (key to the family record)
+V5202,fam_interview_1977,family,fam_interview_number,1977,family interview number that year (key to the family record)
+V5702,fam_interview_1978,family,fam_interview_number,1978,family interview number that year (key to the family record)
+V6302,fam_interview_1979,family,fam_interview_number,1979,family interview number that year (key to the family record)
+V6902,fam_interview_1980,family,fam_interview_number,1980,family interview number that year (key to the family record)
+V7502,fam_interview_1981,family,fam_interview_number,1981,family interview number that year (key to the family record)
+V8202,fam_interview_1982,family,fam_interview_number,1982,family interview number that year (key to the family record)
+V8802,fam_interview_1983,family,fam_interview_number,1983,family interview number that year (key to the family record)
+V10002,fam_interview_1984,family,fam_interview_number,1984,family interview number that year (key to the family record)
+V11102,fam_interview_1985,family,fam_interview_number,1985,family interview number that year (key to the family record)
+V12502,fam_interview_1986,family,fam_interview_number,1986,family interview number that year (key to the family record)
+V13702,fam_interview_1987,family,fam_interview_number,1987,family interview number that year (key to the family record)
+V14802,fam_interview_1988,family,fam_interview_number,1988,family interview number that year (key to the family record)
+V16302,fam_interview_1989,family,fam_interview_number,1989,family interview number that year (key to the family record)
+V17702,fam_interview_1990,family,fam_interview_number,1990,family interview number that year (key to the family record)
+V19002,fam_interview_1991,family,fam_interview_number,1991,family interview number that year (key to the family record)
+V20302,fam_interview_1992,family,fam_interview_number,1992,family interview number that year (key to the family record)
+V21602,fam_interview_1993,family,fam_interview_number,1993,family interview number that year (key to the family record)
+ER2002,fam_interview_1994,family,fam_interview_number,1994,family interview number that year (key to the family record)
+ER5002,fam_interview_1995,family,fam_interview_number,1995,family interview number that year (key to the family record)
+ER7002,fam_interview_1996,family,fam_interview_number,1996,family interview number that year (key to the family record)
+ER10002,fam_interview_1997,family,fam_interview_number,1997,family interview number that year (key to the family record)
+ER13002,fam_interview_1999,family,fam_interview_number,1999,family interview number that year (key to the family record)
+ER17002,fam_interview_2001,family,fam_interview_number,2001,family interview number that year (key to the family record)
+ER21002,fam_interview_2003,family,fam_interview_number,2003,family interview number that year (key to the family record)
+ER25002,fam_interview_2005,family,fam_interview_number,2005,family interview number that year (key to the family record)
+ER36002,fam_interview_2007,family,fam_interview_number,2007,family interview number that year (key to the family record)
+ER42002,fam_interview_2009,family,fam_interview_number,2009,family interview number that year (key to the family record)
+ER47302,fam_interview_2011,family,fam_interview_number,2011,family interview number that year (key to the family record)
+ER53002,fam_interview_2013,family,fam_interview_number,2013,family interview number that year (key to the family record)
+ER60002,fam_interview_2015,family,fam_interview_number,2015,family interview number that year (key to the family record)
+ER66002,fam_interview_2017,family,fam_interview_number,2017,family interview number that year (key to the family record)
+ER72002,fam_interview_2019,family,fam_interview_number,2019,family interview number that year (key to the family record)
+ER78002,fam_interview_2021,family,fam_interview_number,2021,family interview number that year (key to the family record)
+ER82002,fam_interview_2023,family,fam_interview_number,2023,family interview number that year (key to the family record)

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# PSID microdata and everything derived from it (terms of use: no redistribution)
+data/raw/J366383*
+data/raw/~$*
+data/processed/*
+!data/processed/.gitkeep
+
+# macOS / editors
+.DS_Store
+.vscode/
