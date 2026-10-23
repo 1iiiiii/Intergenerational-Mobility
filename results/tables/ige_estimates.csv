@@ -1,0 +1,5 @@
+sample,parent_income,child_income,beta,se,n,n_fathers
+SRC,single year (child age ~15),"average, ages 30-40",0.2492033048248341,0.031611369686956055,3951,2009
+SRC,"average, child ages 13-17","average, ages 30-40",0.434054839659768,0.023566522441410723,3951,2009
+SRC+SEO,single year (child age ~15),"average, ages 30-40",0.32814988295661923,0.026959479379407004,6207,3055
+SRC+SEO,"average, child ages 13-17","average, ages 30-40",0.49949705231898334,0.01914788326508154,6207,3055
