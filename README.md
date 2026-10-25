@@ -1,6 +1,4 @@
-# Matching parents and children with SQL: an intergenerational elasticity tutorial
-
-How much of a parent's income advantage reaches their children — and why does the answer depend on *when* income is measured? This repository matches children to their parents in the Panel Study of Income Dynamics (PSID) using SQL inside Python (`sqlite3`), builds parent and child income measures, and estimates the intergenerational income elasticity (IGE) with single-year and multi-year income, showing the life-cycle bias that single-year measures produce.
+# Matching parents and children with SQL
 
 Published post: https://1iiiiii.github.io/Personal-Website/blog/posts/post6/
 
@@ -17,16 +15,6 @@ PSID family income reported in survey year *t* refers to calendar year *t − 1*
 **Rebuilding the PSID extract.** PSID's terms of use do not allow redistributing the microdata, so the extract is git-ignored. To rebuild it: register (free) at https://simba.isr.umich.edu, open the Data Center, create a data cart, paste the variable list in `data/raw/psid_variable_list.txt`, and download as "Microsoft Excel Spreadsheet" with "All Individuals". Save the file as `data/raw/J366383.xlsx` (or change `EXTRACT` in notebook 01). The Data Center adds ~45 bookkeeping columns of its own; notebook 01 drops them.
 
 Citation: Panel Study of Income Dynamics, public use dataset. Produced and distributed by the Survey Research Center, Institute for Social Research, University of Michigan, Ann Arbor, MI (2025).
-
-## Setup
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-Open the notebooks in VS Code with the `.venv` kernel selected. No API keys are needed.
 
 ## Replication
 
